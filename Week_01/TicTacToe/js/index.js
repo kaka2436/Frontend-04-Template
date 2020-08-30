@@ -6,7 +6,7 @@ const chessType = {
 }
 let chesses = [];
 const MAX_CHCESSES = 9;
-const ROW = 3;
+let gameOver = false;
 const checkerboard = document.getElementById('checkerboard');
 function initCheckeBroard() {
     for (let i = 0; i < MAX_CHCESSES; i++) {
@@ -25,9 +25,13 @@ function userMove (pos) {
         alert("这里已经有棋子了！")
         return false;
     }
+    if (gameOver) {
+        return ;
+    }
     chesses[pos] = 1;
     updateInterface();
     if (checkWin(chesses, 1)) {
+        gameOver = true;
         alert("用户胜利")
     } else {
         aiMove();
@@ -35,12 +39,16 @@ function userMove (pos) {
 }
 
 function aiMove () {
+    if (gameOver) {
+        return ;
+    }
     const res = findBest(chesses,2)
     console.log(res)
     if (res.point)
         chesses[res.point[0] * 3 + res.point[1]] = 2
     updateInterface();
     if (checkWin(chesses,2)) {
+        gameOver = true;
         alert("AI胜利")
     }
 
