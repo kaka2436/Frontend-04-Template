@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56cccea1-50ec-4d93-a16e-0688d196b26c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bf4c162b-1ed9-4e40-9e29-552cb15a2544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../01_trie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_kmp/kmp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week_01/TicTacToe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week_01/TicTacToe/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -39,35 +39,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1goje3rMurAU2aa8C7JEOft4Nqi" />
+  <component name="ProjectId" id="1hR2AZzPLEYlyTmV9yHSdXF8yDR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56cccea1-50ec-4d93-a16e-0688d196b26c" name="Default Changelist" comment="" />
-      <created>1598787933328</created>
+      <changelist id="bf4c162b-1ed9-4e40-9e29-552cb15a2544" name="Default Changelist" comment="" />
+      <created>1599959440733</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598787933328</updated>
-      <workItem from="1598787936231" duration="9606000" />
+      <updated>1599959440733</updated>
+      <workItem from="1599959441922" duration="905000" />
     </task>
     <servers />
   </component>
@@ -84,15 +77,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598788166028">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1598788166028" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1598789231325">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1598789231325" />
   </component>
 </project>
